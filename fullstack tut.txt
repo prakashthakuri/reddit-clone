@@ -1,0 +1,24 @@
+tech:
+React
+TypeScript
+GraphQL
+URQL/Apollo
+Node.js
+PostgreSQL
+MikroORM/TypeORM
+Redis
+Next.js
+TypeGraphQL
+
+Extensions Used:
+
+Bracket pair colorized
+Docker
+GraphQL for vscode
+Prettier - Code Formatter
+Vim
+
+## Installing the dependencies
+    install @types/node typescript ---> installing types for node to run typescript
+    install ts-node to run the server
+    install the tsconfig.json file for configuring typescript --> npx tsconfig.json (node)
