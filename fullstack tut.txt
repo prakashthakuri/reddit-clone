@@ -22,3 +22,14 @@ Vim
     install @types/node typescript ---> installing types for node to run typescript
     install ts-node to run the server
     install the tsconfig.json file for configuring typescript --> npx tsconfig.json (node)
+
+
+## ts-node is slow and do not use in prod
+## watch command 
+"watch": "tsc -w" ----> this compiles our ts code and converts into the js
+
+create a second start for which we can run the js file which is complied version of our ts file i.e. node dist/index.js
+# Install nodemon to act like a like server for the changes we made and add in the "DEV" ---> npm i -g node-dev 
+
+IMP
+#### YOU NEED TO RUN BOTH WATCH AND DEV TO COMPILE THE CHANGES FROM TS TO JS
